@@ -1,0 +1,18 @@
+:root {
+  --gray-color: #626262;
+  --focus-color: #03a9f4;
+  --other-color: #999ca1;
+}
+.body {
+  color: var(--gray-color);
+}
+.nav-link {
+  color: var(--gray-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--focus-color);
+}
+.text {
+  color: var(--other-color);
+}
